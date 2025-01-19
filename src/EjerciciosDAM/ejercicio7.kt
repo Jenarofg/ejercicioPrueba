@@ -1,3 +1,5 @@
+package EjerciciosDAM
+
 fun main() {
     ejercicio7()
 }

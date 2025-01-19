@@ -17,7 +17,6 @@ fun carrera (){
                     if (carrera[index]=="correr") aux[index]='/' else aux[index]='|'
                 }
             }
-
     }
     println(aux)
     println(pista)
