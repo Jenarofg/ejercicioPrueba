@@ -1,8 +1,8 @@
 package EjerciciosDAM
 
-class BebidaAzucarada (id: Int,litros: Double,precio: Double,
-                           marca:String,val porcentajeAzucar:Double, val promocion: Boolean)
+class BebidaAzucarada (id: Int,litros: Double,precio: Double,marca:String,val porcentajeAzucar:Double, val promocion: Boolean)
         : Bebida(id,litros,precio,marca) {
+
     init {
         if (this.promocion){
             this.precio *= 0.9
